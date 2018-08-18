@@ -1,10 +1,14 @@
 version: '2'
 services:
   licensingservice:
-    image: namelosw/licensingservice
+    image: namelosw/licensingservice:latest
     ports:
       - "8081:8080"
   simpleservice:
-    image: namelosw/simpleservice
+    image: namelosw/simpleservice:latest
     ports:
       - "8080:8080"
+  configurationserver:
+    image: namelosw/configurationserver
+    ports:
+      - "8888:8888"
