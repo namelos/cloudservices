@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/namelos/spring-microservices-config
-          searchPaths: licensingservice
+          uri: https://github.com/namelos/cloudservices
+          searchPaths: configurations/licensingservice
 
